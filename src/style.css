@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./IndieFlower-Regular.ttf');
+    /* font-weight: 400; */
+    /* font-style: normal; */
+}
+#content{
+    position: fixed;
+    font-family: 'MyFont';
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background-color: #f3e7e4;
+    overflow: auto;
+    
+    
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #f6f2f0;
+    padding: 1px;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    
+    
+}
+.header{
+     display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    background-color: #f6f2f0;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+    padding: 0px 30px;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+li:hover{
+    cursor: pointer;
+    color: #f6f2f0;
+    background-color: black;
+}
+#body{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 10% 0 10%;
+    
+}
+#description{
+    flex-grow: 1;
+    margin: auto 20px;
+    padding: 0 auto;
+    font-size: 1.25rem;
+}
+#saladImage{
+    flex-grow: 2;
+}
+#map{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5%;
+}
+#bottom h3{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+#menuBackground{
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+       
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f3e7e4;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    margin: 2.5% 25% 2.5% 25%;
+    
+}
+h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+    margin-top: 1rem;
+    
+}
+.salad{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0;
+}
